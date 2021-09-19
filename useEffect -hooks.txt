@@ -1,0 +1,29 @@
+Comparando useEffect com lyfecycle
+
+Imagine cmg que eu queira colcocar um component didUpadate, ou seja
+todo vez que eu atualizar o componente eu quero chamar uma função
+para isso vou usar um hooks chamado de hook useEffect
+
+Esse useEffect sozinho faz o trabalho de compoenete didamount,update
+para eu usar isso eu uso
+useEffect() e esse useEffectg usa com primeiro parametro uma função
+ parar fazer o update 
+
+useEffect(() =>{
+console.log('componentDidUpdate')
+});
+
+
+Para fazer componentDidAmount, ou seja o compoenent foi montado na tela executa uma vez
+e depois não executa mais.
+
+Para fazer isso eu posso fazer outro useEffect, so que dessa vez tenho que mudar o UseEffect
+alem do meu parametro que é uma função, eu tenho que passar um segundo parametro que um
+array de dependencias, so que se nós passamos um array
+que nao tem dependcias ele vai executar só uma vez
+
+
+useEffect(()=>{
+})
+
+
