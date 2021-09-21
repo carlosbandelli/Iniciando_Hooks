@@ -1,3 +1,10 @@
+Usado para otmização
+
+useCallBack é usado assim
+ useCallBack(voce vai passa uma função aqui dentro, [] um segundo parametro de dependencias)
+
+----------código completo------------------
+
 import P from 'prop-types';
 import './App.css';
 import React, { useCallback, useState } from 'react';
